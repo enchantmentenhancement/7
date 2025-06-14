@@ -59,7 +59,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value = Math.random() < 0.99999999 ? Math.random() < 0.9999999615384615384615384 ? Math.random() < 0.99999996 ? Math.random() < 0.999999875 ? Math.random() < 0.999999857142857142857142 ? Math.random() < 0.9999998 ? Math.random() < 0.999999 ? Math.random() < 0.99998 ? Math.random() < 0.9996 ? 1 : Math.random() < 0.9 ? 2 : 3 : Math.random() < 0.9 ? 4 : 5 : 6 : 7 : 0 : 8 : 82 : 83 : 9;
+    var value = Math.random() < 0.99999999 ? Math.random() < 0.9999999655172413793103448 ? Math.random() < 0.99999996428571428571428571 ? Math.random() < 0.9999999615384615384615384 ? Math.random() < 0.99999996 ? Math.random() < 0.999999958333333333333333333 ? Math.random() < 0.999999875 ? Math.random() < 0.999999857142857142857142 ? Math.random() < 0.9999998 ? Math.random() < 0.9999996 ? Math.random() < 0.999999 ? Math.random() < 0.99998 ? Math.random() < 0.9996 ? 1 : Math.random() < 0.9 ? 2 : 3 : Math.random() < 0.9 ? 4 : 5 : 6 : Math.random() < 0.5 ? Math.random() < 0.5 ? -1 : -2 : Math.random() < 0.9 ? -3 : -4 : 7 : 0 : 8 : 81 : 82 : 83 : 84 : 85 : 9;
     var tile = new Tile(this.grid.randomAvailableCell(), value);
     this.score += 1;
     if (tile.value === 9) this.over = true;
