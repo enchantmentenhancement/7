@@ -2,10 +2,10 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #e8f1f4;
-  color: #0f4f64;
-  font-family: "Arial Rounded MT Bold";
-  font-size: 18px; }
+  background: #2c4149;
+  color: #2695b9;
+  font-family: Verdana;
+  font-size: 16px; }
 
 body {
   margin: 80px 0; }
@@ -391,7 +391,7 @@ hr {
     z-index: 10;
     font-size: 40px; }
   .tile.tile-0 .tile-inner {
-    color: #000000; }
+    color: #2695b9; }
   .tile.tile-1 .tile-inner {
     color: #4afff1; }
   .tile.tile-2 .tile-inner {
@@ -403,20 +403,20 @@ hr {
   .tile.tile-5 .tile-inner {
     color: #ec00f3; }
   .tile.tile-6 .tile-inner {
-    color: #fdfcff; }
+    color: #ffffff; }
   .tile.tile-7 .tile-inner {
     color: #000000;
     background: #b6b6b6; 
     background-image: url('https://enchantmentenhancement.github.io/7/7rainbow.PNG');
-    background-size: 100% auto; }
+    background-size: 118% auto; }
   .tile.tile-8 .tile-inner {
-    color: #133aff; }
+    color: #363cfc; }
   .tile.tile-9 .tile-inner {
-    color: #133aff; 
+    color: #230068; 
     background: #9eff00; }
   .tile.tile-82 .tile-inner {
     color: #f3cfad; 
-    background: #c8a585; }
+    background: #ab896a; }
   .tile.tile-83 .tile-inner {
     color: #ffd734; 
     background: #1e813b; }
